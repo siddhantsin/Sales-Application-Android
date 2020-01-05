@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.b07.view.Login">
+
+    <LinearLayout
+        android:id="@+id/installation_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/chooseLoginTitle"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFFFFF"
+            android:backgroundTint="#00804C4C"
+            android:text="Choose Login"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#513A7E" />
+
+        <TextView
+            android:id="@+id/selectLoginTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select your type of Login"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#D0332222"
+            android:textSize="20sp"
+            tools:layout_marginStart="10dp" />
+
+        <ImageButton
+            android:id="@+id/Admin1"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:adjustViewBounds="true"
+            android:background="#00FFFFFF"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/admin" />
+
+        <ImageButton
+            android:id="@+id/Empl1"
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:adjustViewBounds="true"
+            android:background="#00FFFFFF"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/empl" />
+
+        <ImageButton
+            android:id="@+id/Cust1"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:adjustViewBounds="true"
+            android:background="#00FFFFFF"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/cust" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

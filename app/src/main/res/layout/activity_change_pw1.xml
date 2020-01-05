@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/changePwPg1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.b07.view.ChangePw1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/enterUnTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Enter Username"
+            android:textSize="36sp" />
+
+        <EditText
+            android:id="@+id/unTb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Username"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/enterNameTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Enter Name"
+            android:textSize="36sp" />
+
+        <EditText
+            android:id="@+id/nameTb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/enterAgeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Enter Age"
+            android:textSize="36sp" />
+
+        <EditText
+            android:id="@+id/ageTb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Age"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/enterAddrTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Enter Address"
+            android:textSize="36sp" />
+
+        <EditText
+            android:id="@+id/addrTb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Address"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/nextButton1"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" /><![CDATA[
+        />
+
+        ]]>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <!--colours for button gradients -->
+    <color name="gradient_start">#4568dc</color>
+    <color name="gradient_end">#F3A183</color>
+
+
+</resources>

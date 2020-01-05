@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="back_button">Back</string>
+    <string name="log_out">Log Out</string>
+    <string name="update_database">Update Database</string>
+    <string name="add_admin">Add Admin</string>
+    <string name="change_password">Change Password</string>
+    <string name="item_search">Enter the item you would like to find:</string>
+    <string name="cart">Cart</string>
+    <string name="create_admin">Create Admin</string>
+    <string name="initialization_mssg">Welcome!</string>
+    <string name="login_type_msg">Please select the type of login:</string>
+    <string name="get_started">Get Started</string>
+    <string name="instructions">TO BE FILLED LATER</string>
+    <string name="hockey_sticks">HOCKEY STICKS</string>
+    <string name="skates">SKATES</string>
+    <string name="fishing_rod">FISHING ROD</string>
+    <string name="protein_bar">PROTEIN BAR</string>
+    <string name="running_shoes">RUNNING SHOES</string>
+
+
+
+</resources>

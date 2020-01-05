@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:id="@+id/adminLogggedin"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context="com.b07.view.AdminView">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">>
+            <LinearLayout
+                android:id="@+id/Layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/adminTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#00804C4C"
+                    android:text="Admin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                    android:textColor="#FC7F4288" />
+
+                <ImageView
+                    android:id="@+id/adminIcon"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    app:srcCompat="@drawable/adminicon" />
+
+                <Button
+                    android:id="@+id/promteEmpl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/back_button"
+                    android:text="Promote Employee"
+                    android:textAllCaps="false"
+                    android:textColor="#F9F9F9"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/viewDB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/back_button"
+                    android:text="View data base"
+                    android:textAllCaps="false"
+                    android:textColor="#F9F9F9"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/viewActiveAcc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/back_button"
+                    android:text="View all active accounts"
+                    android:textAllCaps="false"
+                    android:textColor="#F9F9F9"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/viewInactiveAcc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/back_button"
+                    android:text="View Inactive accounts"
+                    android:textAllCaps="false"
+                    android:textColor="#F9F9F9"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/adminRestoreDb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/back_button"
+                    android:text="Restore Database (Coming soon)"
+                    android:textAllCaps="false"
+                    android:textColor="#F9F9F9"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/adminBackupDb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/back_button"
+                    android:text="Backup Database (Coming soon)"
+                    android:textAllCaps="false"
+                    android:textColor="#F9F9F9"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/adminLogout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/back_button"
+                    android:text="Logout"
+                    android:textAllCaps="false"
+                    android:textColor="#F9F9F9"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

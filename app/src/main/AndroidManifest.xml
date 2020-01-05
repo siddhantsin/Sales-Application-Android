@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.view">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.b07.view.AddItemsPage"/>
+        <activity android:name="com.b07.view.RemoveItemsPage"/>
+        <activity android:name="com.b07.view.AdminLogin"/>
+        <activity android:name="com.b07.view.EmplLogin" />
+        <activity android:name="com.b07.view.AdminView" />
+        <activity android:name="com.b07.view.CreateAdmin" />
+        <activity android:name="com.b07.view.CreateCust" />
+        <activity android:name="com.b07.view.CustomerLogin" />
+        <activity android:name="com.b07.view.CustomerView" />
+        <activity android:name="com.b07.view.EmplView" />
+        <activity android:name="com.b07.view.InitializationAdmin" />
+        <activity android:name="com.b07.view.CreateEmpl" />
+        <activity android:name="com.b07.view.Login" />
+        <activity android:name="com.b07.view.LoginAccountAlreadyExist" />
+        <activity android:name="com.b07.view.LoginAccountDoesNotExist" />
+        <activity android:name="com.b07.view.SuccessfulCheckout" />
+        <activity android:name="com.b07.view.ViewCart"/>
+
+
+        <activity
+            android:name="com.b07.view.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
